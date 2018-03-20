@@ -1,0 +1,149 @@
+/* ---- BASIC SETUP ----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f4f4f4;
+    color: #2b2f2a;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*------------------------*/
+/* REUSABLE COMPONENTS */
+/*--------------------- */
+
+section { padding: 80px 0; }
+
+a {text-decoration: none}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h2 {font-weight: 300;}
+
+h3 {font-weight: 200;}
+
+
+/* HEADER */
+
+header {
+    background-image: url(../img/header.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.page-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    text-align: center;
+    width: 100%;
+    height: auto;
+    top: 37%;
+    position: absolute;
+}
+
+h1 {
+    display: inline;
+    font-weight: 100;
+    color: #d7eabe;
+    font-size: 400%;
+    
+}
+
+.page-title img {
+    width: 50px;
+    height: auto;
+    
+}
+
+.add1 {
+    display: inline;
+    text-align: center;
+
+}
+
+.add2 {
+    display: inline;
+    text-align: center;
+}
+
+.page-title ul {
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+
+.page-title ul li {display: inline-block;}
+
+.page-title a {
+    padding: 15px 15px 0;
+    color: #99a787;
+}
+
+.page-title a:hover {
+    color: #d7eabe;
+    border-bottom: 1px solid #d7eabe;
+    transition: 0.5s;
+}
+
+
+/* ---- ABOUT US ---- */
+
+.section-about h2, h3 { text-align: center; }
+
+.section-about h3 { margin-top: 10px; }
+
+.section-about hr {
+    margin: 10px auto 0 auto;
+    width: 50%;
+    height: 1px;
+}
+
+.quote {
+    width: 80%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    font-size: 100%;
+}
+
+.about {
+    width: 65%;
+    margin: 10px auto 0 auto;
+    text-align: justify;
+}
+
+
+/* ---- GALLERY ----*/
+
+.section-gallery {
+    background-color: #4b4b4b;
+}
+
+.section-gallery h2 {
+    text-align: center;
+}
+
+.section-gallery hr {
+    margin: 10px auto 0 auto;
+    width: 50%;
+    height: 1px;
+}
+
+
+
+
+
+
+
+
+
