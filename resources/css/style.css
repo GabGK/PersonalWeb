@@ -19,7 +19,7 @@ html {
 /* REUSABLE COMPONENTS */
 /*--------------------- */
 
-section { padding: 80px 0; }
+section { padding: 80px 0 80px 0; }
 
 a {text-decoration: none}
 
@@ -33,7 +33,7 @@ h2 {font-weight: 300;}
 h3 {font-weight: 200;}
 
 
-/* HEADER */
+/* ---- HEADER ---- */
 
 header {
     background-image: url(../img/header.jpeg);
@@ -61,21 +61,11 @@ h1 {
     
 }
 
-.page-title img {
+.add1,
+.add2 {
     width: 50px;
     height: auto;
     
-}
-
-.add1 {
-    display: inline;
-    text-align: center;
-
-}
-
-.add2 {
-    display: inline;
-    text-align: center;
 }
 
 .page-title ul {
@@ -88,18 +78,30 @@ h1 {
 .page-title a {
     padding: 15px 15px 0;
     color: #99a787;
+    border: transparent;
+    
 }
 
 .page-title a:hover {
     color: #d7eabe;
-    border-bottom: 1px solid #d7eabe;
     transition: 0.5s;
+    border-bottom: 1px solid;
+    border-color: #d7eabe;
 }
 
 
 /* ---- ABOUT US ---- */
 
+.section-about {
+    top: 0;
+    padding-top: 1px;
+    background: #ffffff;
+    height: 1020px;
+}
+
 .section-about h2, h3 { text-align: center; }
+
+.section-about h2 { margin-top: 5%; }
 
 .section-about h3 { margin-top: 10px; }
 
@@ -109,28 +111,59 @@ h1 {
     height: 1px;
 }
 
+.about-box {  margin-top: 7%; }
+
 .quote {
     width: 80%;
-    margin: 20px auto 0 auto;
+    margin: 20px 0 0 auto;
     text-align: center;
     font-size: 100%;
 }
 
 .about {
-    width: 65%;
-    margin: 10px auto 0 auto;
+    width: 55%;
+    margin: 10px 0 0 auto;
     text-align: justify;
 }
 
+.section-about img { 
+    float: left;
+    display: inline;
+}
 
-/* ---- GALLERY ----*/
+
+/* ---- GALLERY ---- */
 
 .section-gallery {
-    background-color: #4b4b4b;
+    height: 100vh;
+    background: linear-gradient(rgba(9, 11, 6, 0.9), rgba(9, 11, 6, 0.9)),url(../img/creation.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .section-gallery h2 {
+    color: #d7eabe;
     text-align: center;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.creation-p {
+    color: #d7eabe;
+    width: 20%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.creation-p img {
+    width: 110%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 .section-gallery hr {
@@ -138,12 +171,4 @@ h1 {
     width: 50%;
     height: 1px;
 }
-
-
-
-
-
-
-
-
 
