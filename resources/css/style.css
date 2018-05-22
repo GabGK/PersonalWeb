@@ -96,7 +96,7 @@ h1 {
     top: 0;
     padding-top: 1px;
     background: #ffffff;
-    height: 1020px;
+    height: auto;
 }
 
 .section-about h2, h3 { text-align: center; }
@@ -111,7 +111,9 @@ h1 {
     height: 1px;
 }
 
-.about-box {  margin-top: 7%; }
+.about-box {  
+    margin-top: 7%;
+}
 
 .quote {
     width: 80%;
@@ -126,13 +128,40 @@ h1 {
     text-align: justify;
 }
 
-.section-about img { 
+.section-about img {
+    width: 42%;
+    height: auto;
     float: left;
     display: inline;
 }
 
 
-/* ---- GALLERY ---- */
+/* ---- WHAT WE DO ---- */
+
+.section-do {
+    background-color: #ebf4bc;
+    
+}
+
+.do-box1,
+.do-box2 {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+}
+
+.do-box2 { margin: 2%; }
+
+.do-box1 { margin: 2% 2% 2% 16%; }
+
+.do-row { margin: 0 auto; }
+
+
+
+
+
+
+/* ---- GALLERY ---- 
 
 .section-gallery {
     height: 100vh;
@@ -172,3 +201,4 @@ h1 {
     height: 1px;
 }
 
+*/
